@@ -1,13 +1,16 @@
-import './signin.css';
-import { Link } from "react-router-dom";
+import './eventmain.css';
+import Eventsidebar from './eventsidebar';
 import {Navbar,Nav,Container} from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import { Row, Card, Col } from "react-bootstrap";
 
 
-function Signin() {
-    return (
+
+
+function Eventmain(){
+    return(
         <div className="container">
-          <div className="header">
+            <div className="header">
                     <Navbar expand="lg" className="nav navbar-form " variant="dark" fixed="top">
                         <Container>
                             <Navbar.Brand href="/" >DataDNA</Navbar.Brand>
@@ -29,29 +32,23 @@ function Signin() {
                         </Container>
                     </Navbar>
                 </div>
-            <div className="row mt-5">
-                <div className="col-6">
-                    <img className="imagestyle" src="./assects/signin.png" />
+            <div className="row container mt-5 ">
+                <div className="col-4 mt-5">
+                <Eventsidebar/>
                 </div>
-                <div className="col-6">
-                    <h1 className="heading">Sign in</h1>
-                    <form>
-                        <input type="text" className="emailinput" placeholder="Email address or phone number" />
-                        <input type="password" className="passwordinput" placeholder="Password" />
-                        <p className="forgotpass">Forgot password?</p>
-                        <button className="btn btn-primary signinbut" type="button">Sign In</button>
-                    </form>
-                    <hr className="line mt-4" />
-                    <div className="mt-3 logos">
-                        <a><Link to="#"><img className="facebooklogo" src="./assects/facebooklogo.png" /></Link></a>
-                        <a><Link to="#"><img className="googlelogo" src="./assects/google.png" /></Link></a>
-                        <a><Link to="#"><img className="linkedin" src="./assects/linkedin1.png" /></Link></a>
+                <div className="col-7 events">
+                    <h2>YOUR EVENTS</h2>
+                    <small className="date">MONDAY,NOVEMBER </small>
+                    <hr className="lines" />
+                    <div className="mx-5">
+                    <img src="./assects/Calendar.png" alt="Image" className="imag" />
+                    <h4 className="schedulecontent mx-3">No scheduled events on this day</h4>
                     </div>
-                    <p className="signupbtn mt-4">Don’t have an account?<a className="signuplink"><Link to="#"> Sign Up</Link></a></p>
                 </div>
             </div>
+
         </div>
-    )
+    );
 }
 
-export default Signin;
+export default Eventmain;

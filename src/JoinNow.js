@@ -3,6 +3,7 @@ import joinimg from './images/joinimg.jpg';
 import google from './images/google.png';
 import facebook from './images/facebook.png';
 import linkedin from './images/linkedin.png';
+import home from'./images/home.png';
 import './join.css';
 import {Row,Col,Image,Form,Container,Button} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
@@ -11,6 +12,7 @@ import {Link} from 'react-router-dom';
 function Join(){
     return(
         <div>
+ <Link to='/'> <Image src={home} className="homeicon"></Image></Link>
 
 
 <Container>

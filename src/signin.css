@@ -1,14 +1,14 @@
 .signimg{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .login{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .tble2{
-    width: 450px;
+    width: 450px !important;
     margin-left: 100px;
     margin-top: 60px;
     left: calc(50% - 551px/2 + 338.5px);
@@ -21,7 +21,7 @@ border-radius: 10px;
 }
 
 .tble3{
-    width: 450px;
+    width: 450px !important;
     margin-left: 100px;
     margin-top: 40px;
     left: calc(50% - 551px/2 + 338.5px);
@@ -35,4 +35,129 @@ border-radius: 10px;
 
 .forgot{
     margin-left: 400px;
+}
+
+
+.homeicon{
+    width: 50px !important;
+height:50px;
+margin-left: 50px;
+margin-top: 20px;
+
+
+background: linear-gradient(135.37deg, rgba(0, 0, 0, 0.4) 4.29%, rgba(255, 255, 255, 0.4) 95.6%), #EBECF0;
+background-blend-mode: soft-light, normal;
+border: 1px solid rgba(255, 255, 255, 0.4);
+box-sizing: border-box;
+box-shadow: -5px -5px 10px #FAFBFF, 5px 5px 10px #A6ABBD;
+
+border-radius: 10px;
+}
+.imagestyle{
+    height: 400px;
+    width: 400px !important;
+}
+.heading{
+    font-family: Roboto;
+font-size: 43px;
+font-weight: 700;
+line-height: 92px;
+text-align: center;
+}
+
+.emailinput{
+    height: 40px;
+width: 400px;
+margin-left: 76px;
+border-radius: 10px;
+padding-left: 20px;
+background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%);
+background: #E7EBF0;
+border: 1px solid;
+border-image-source: linear-gradient(91.95deg, rgba(255, 255, 255, 0.4) -4.26%, rgba(255, 255, 255, 0) 107.52%);
+ /* background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #0670BD; */
+  background-blend-mode: soft-light, normal;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-sizing: border-box;
+  box-shadow: -15px -15px 30px #FAFBFF, 15px 15px 30px #A6ABBD;
+  border-radius: 40px;
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.passwordinput{
+
+    height: 40px;
+    width: 400px;
+    margin-left: 76px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 20px;
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%);
+    background: #E7EBF0;
+    border: 1px solid;
+    border-image-source: linear-gradient(91.95deg, rgba(255, 255, 255, 0.4) -4.26%, rgba(255, 255, 255, 0) 107.52%);
+    background-blend-mode: soft-light, normal;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    box-sizing: border-box;
+    box-shadow: -15px -15px 30px #FAFBFF, 15px 15px 30px #A6ABBD;
+    border-radius: 40px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.forgotpass{
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 84px;
+    font-weight: 500;
+}
+
+.signinbut{
+    height: 39px;
+    width: 125px;
+    margin-left: 200px;
+    border-radius: 14px !important;
+    padding-top: 0px;
+
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #0670BD;
+  background-blend-mode: soft-light, normal;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-sizing: border-box;
+  box-shadow: -15px -15px 30px #FAFBFF, 15px 15px 30px #A6ABBD;
+  border-radius: 40px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.line{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logos{
+    margin-left: 20px;
+}
+
+.facebooklogo{
+    height: 52px;
+    width: 52px !important;
+    margin-left: 120px;
+    
+}
+
+.googlelogo{
+    height: 52px;
+    width: 52px !important;
+    margin-left: 50px;
+    border-radius: 149px;
+}
+
+.linkedin{
+    height: 45px;
+    width: 45px !important;
+    margin-left: 50px;
+}
+
+.signupbtn{
+    font-weight: 500;
+    margin-left: 160px;
 }

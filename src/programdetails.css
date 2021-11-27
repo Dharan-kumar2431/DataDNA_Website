@@ -1,0 +1,37 @@
+.stepper .line{
+    width: 2px;
+    background-color: lightgrey !important;
+}    
+    
+.stepper .lead {
+    font-size: 1.1rem;
+}
+.chead{
+    color: #0E5FB7;
+    margin-left: 40px;
+    display: inline;
+}
+
+.backbutton{
+    width: 125px !important;
+    margin:0px;
+    height: 50px;
+    display: inline;
+
+}
+
+.csubtopics{
+    color: #0E5FB7;
+}
+
+.cimg{
+    width: 30px;
+    height: 80px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.ptext{
+    display: inline;
+    margin-left: 20px;
+}

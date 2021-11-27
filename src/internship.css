@@ -1,0 +1,47 @@
+.chead{
+    color: #0E5FB7;
+    margin: auto;
+    display: inline;
+}
+
+.backbutton{
+    width: 125px !important;
+    margin:0px;
+    height: 50px;
+    display: inline;
+
+}
+
+.csubtopics{
+    color: #0E5FB7;
+}
+
+.cimg{
+    width: 20px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.ptext{
+    display: inline;
+    margin-left: 20px;
+}
+
+.cardstyle{
+    /* background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #0670BD; */
+    background-blend-mode: soft-light, normal;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    box-sizing: border-box;
+    box-shadow: -15px -15px 30px #FAFBFF, 15px 15px 30px #A6ABBD;
+    border-radius: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.cardtit{
+color: #0E5FB7;
+}
+
+.cardmaindiv{
+    margin:auto;
+}
