@@ -18,7 +18,7 @@ class Courses extends Component {
     render() {
         return (
             <div className="container">
-                {/* <div className="header">
+                <div className="header">
                     <Navbar expand="lg" className="nav navbar-form " variant="dark" fixed="top">
                         <Container>
                             <Navbar.Brand href="/" >DataDNA</Navbar.Brand>
@@ -39,7 +39,7 @@ class Courses extends Component {
                             </Navbar.Collapse>
                         </Container>
                     </Navbar>
-                </div> */}
+                </div>
 
                <div className="mt-5">
                <Row xs={1} md={3} className="g-6">

@@ -16,3 +16,21 @@
     height: 60px;
     margin-top: 0px;
 }
+
+.eventsstyle{
+    background-blend-mode: soft-light, normal;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    box-sizing: border-box;
+    /* box-shadow: -15px -15px 30px #FAFBFF, 15px 15px 30px #A6ABBD; */
+    border-radius: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #0E5FB7;
+    color: white;
+    font-weight: 500;
+}
+
+.eventsstyletext{
+    text-decoration: underline rgb(173, 167, 167);
+    color: rgb(173, 167, 167);
+    /* color: rgb(6, 2, 245); */
+}

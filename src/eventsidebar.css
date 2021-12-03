@@ -1,7 +1,7 @@
 .sidebarmaindiv{
     font-family: Red Hat Display;
     font-weight: bold;background-color: #C7C0C0;
-    height: 450px;
+    height: 550px;
 }
 
 .pastlink{
@@ -15,9 +15,12 @@
 
 button{
     border: none;
-    background-color: none;
 }
 
 .react-calendar__navigation{
     text-align: center;
+}
+
+button:focus{
+    background-color: blue;
 }

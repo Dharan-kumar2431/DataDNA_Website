@@ -1,7 +1,25 @@
 import './eventsidebar.css';
 import Calendar from 'react-calendar'
+import { useState } from 'react';
 
-function Eventsidebar() {
+function Eventsidebar(probs) {
+    const [value, setValue] = useState(new Date())
+
+
+    const onChange = val => {
+        setValue(val);
+        console.log(val);
+        probs.changeDate(val);
+    }
+
+    const [isChecked, setIsChecked] = useState(false);
+
+    const handleOnChange = (val) => {
+        setIsChecked(!isChecked);
+        // console.log(isChecked)
+        probs.suggestionValue(!isChecked);
+    };
+
     return (
         <div>
             <div>
@@ -18,10 +36,11 @@ function Eventsidebar() {
                             <label className="mx-3">From group you’ve joined</label><br />
                             <input type="checkbox" />
                             <label className="mx-3">Saved</label><br />
-                            <input type="checkbox" />
-                            <label className="mx-3">Suggested</label>
-                        </div>  
-                        <Calendar className="my-5" />
+                            <input type="checkbox" id="suggestion" checked={isChecked}
+                                onChange={handleOnChange} />
+                            <label className="mx-3" >Suggested</label>
+                        </div>
+                        <Calendar onChange={onChange} value={value} className="my-5" />
                     </div>
                 </div>
             </div>
