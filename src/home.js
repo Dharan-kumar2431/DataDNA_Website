@@ -39,7 +39,7 @@ function Home(){
         <Nav.Link className="link" href="#members"><Link to="/Members" className="testimonial">Members</Link></Nav.Link>
         <Nav.Link className="link" href="/eventmain">Events</Nav.Link>
         <Nav.Link className="link" href="#testimonials"><Link to="/Testimonial" className="testimonial">Testimonials</Link></Nav.Link>
-        <Nav.Link className="link" href="#forum">Forum</Nav.Link>
+        <Nav.Link className="link" href="/forum">Forum</Nav.Link>
         <Nav.Link className="link" href="#contact">Contact</Nav.Link>
         
       </Nav>

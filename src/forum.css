@@ -1,0 +1,127 @@
+.forum-head{
+    text-align: center;
+    color: #0E5FB7;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.forum-sub{
+    text-align: center;
+    color: #0E5FB7;
+    margin-top: 30px;
+}
+
+.card-forum{
+   width: 1150px !important;
+   height: 110px;
+   margin-left: 140px;
+   margin-top: 40px;
+   background-color: #0E5FB7 !important;
+   border-radius: 15px !important;
+}
+
+.card-body{
+    color: white;
+}
+
+.forum-post{
+    margin-top: 40px;
+    margin-left: 140px ;
+    font-weight: bold;
+}
+
+.post-card1{
+    width: 18rem !important;
+    height: 300px !important;
+   margin-top: 10px !important;
+    margin-left: 50px !important;
+    padding-left: 0%;
+    
+}
+
+.post-card2{
+    width: 18rem !important;
+    height: 300px !important;
+    margin-top: 10px !important;
+    margin-left: 50px !important;
+    padding-left: 0px;
+    
+    
+}
+
+.text-forum1{
+    color: black !important;
+}
+
+.forum-image1{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.forum-image2{
+    margin-bottom: 30px;
+    width: 100px !important;
+    height: 80px;
+    position: absolute;
+    margin-left: 0px;
+}
+
+.forum-post2{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+}
+
+.forum-post3{
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+}
+
+.forum-title{
+   margin-left: 100px;
+   margin-top: 35px !important;
+}
+
+.follow{
+    position: absolute !important;
+    margin-left: 1000px;
+    margin-top: 46px !important;
+    color: white;
+    font-weight: bold;
+}
+
+.date{
+    color: gray;
+    font-size: 13px;
+}
+
+.forumcard-text{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.forum-job{
+    color: gray;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.comment{
+    position: absolute;
+    margin-top: 335px;
+    width: 25px !important;
+    height: 25px;
+    margin-left: 30px;
+}
+
+.heart{
+    position: absolute;
+    margin-top: 335px;
+    width: 25px !important;
+    height: 25px;
+    margin-left: 230px;
+}

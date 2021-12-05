@@ -1,5 +1,5 @@
 import './eventsidebar.css';
-import Calendar from 'react-calendar'
+import Calendar from 'react-calendar';
 import { useState } from 'react';
 
 function Eventsidebar(probs) {

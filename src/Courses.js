@@ -3,6 +3,7 @@ import { Row, Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import './Courses.css';
 import {Navbar,Nav,Container} from 'react-bootstrap';
+import Header from "./Header";
 
 
 
@@ -17,8 +18,9 @@ class Courses extends Component {
 
     render() {
         return (
-            <div className="container">
-                <div className="header">
+            <div>
+                <Header/>
+                {/* <div className="header">
                     <Navbar expand="lg" className="nav navbar-form " variant="dark" fixed="top">
                         <Container>
                             <Navbar.Brand href="/" >DataDNA</Navbar.Brand>
@@ -30,17 +32,19 @@ class Courses extends Component {
                                     <Nav.Link className="link" href="#blog">Blog</Nav.Link>
                                     <Nav.Link className="link" href="#coach">Coaching Methodology</Nav.Link>
                                     <Nav.Link className="link" href="#members"><Link to="/Members" className="testimonial">Members</Link></Nav.Link>
-                                    <Nav.Link className="link" href="#events">Events</Nav.Link>
+                                    <Nav.Link className="link" href="/eventmain">Events</Nav.Link>
                                     <Nav.Link className="link" href="#testimonials"><Link to="/Testimonial" className="testimonial">Testimonials</Link></Nav.Link>
-                                    <Nav.Link className="link" href="#forum">Forum</Nav.Link>
+                                    <Nav.Link className="link" href="/forum">Forum</Nav.Link>
                                     <Nav.Link className="link" href="#contact">Contact</Nav.Link>
+
 
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>
                     </Navbar>
-                </div>
+                </div> */}
 
+               <div className="container">
                <div className="mt-5">
                <Row xs={1} md={3} className="g-6">
                     {cardarry.map((res, idx) => (
@@ -60,6 +64,7 @@ class Courses extends Component {
                 </Row>
                </div>
             </div>
+               </div>
         )
     }
 }

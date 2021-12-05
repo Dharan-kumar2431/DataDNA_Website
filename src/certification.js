@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Certification() {
     return (
-        <div>
+        <div className="container">
             <div className="row">
                 <div className="col-1">
                 <a><Link to="/courses"><img className="backbutton" src="./assects/backbutton1.png" /></Link></a>

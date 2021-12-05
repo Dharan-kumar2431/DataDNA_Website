@@ -12,6 +12,8 @@ import Internship from './internship';
 import Mentership from './mentership';
 import Programdetails from './programdetails';
 import Eventmain from './eventmain';
+import EventTest from './EventTest';
+import Forum from './forum';
 
 
 function App(){
@@ -41,9 +43,15 @@ function App(){
     <Route path="/programdetails">
       <Programdetails/>
     </Route>
-    <Route path="/eventmain">
+    {/* <Route path="/eventmain">
       <Eventmain/>
-    </Route>
+    </Route> */}
+    <Router path="/eventmain">
+      <EventTest />
+    </Router>
+    <Router path="/forum">
+      <Forum />
+    </Router>
 
   
 

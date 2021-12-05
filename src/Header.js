@@ -22,7 +22,7 @@ function Header() {
                                 <Nav.Link className="link" href="#members">Members</Nav.Link>
                                 <Nav.Link className="link" href="/eventmain">Events</Nav.Link>
                                 <Nav.Link className="link" href="#testimonials">Testimonials</Nav.Link>
-                                <Nav.Link className="link" href="#forum">Forum</Nav.Link>
+                                <Nav.Link className="link" href="/forum">Forum</Nav.Link>
                                 <Nav.Link className="link" href="#contact">Contact</Nav.Link>
 
                             </Nav>

@@ -3,6 +3,7 @@ import Eventsidebar from './eventsidebar';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import { useState } from 'react';
+import Header from './Header';
 
 
 const eventcontent = [
@@ -11,12 +12,16 @@ const eventcontent = [
     { title: "WEBINAR ON", millisecond: "1637692200000", date: "24-11-2021", time: "18:16:00" },
     { title: "WEBINAR", millisecond: "1638210600000", date: "30-11-2021", time: "20:23:00" },
     { title: "WEBINAR ON ARTIFICIAL INTELLIGENT", millisecond: "1638297000000", date: "01-12-2021", time: "16:00:00" },
-]
+];
+
+const particularDate = [];
 
 
 function Eventmain() {
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [isshowScedule, setIsshowScedule] = useState(false);
+
+
 
     const changeDate = val => {
         setSelectedDate(val);
@@ -25,7 +30,7 @@ function Eventmain() {
         console.log(datevalue);
         const particularDate = eventcontent.filter(value => value.millisecond == datevalue);
         console.log(particularDate);
-
+        // dateValues();  
     }
 
     const suggestionValue = val => {
@@ -34,6 +39,20 @@ function Eventmain() {
         changeVal();
     }
 
+    // const dateValues = () => {
+    //     return(
+    //         <div>
+    //          {particularDate.map((data, index) => (
+    //                 <div key={index} className="row eventsstyle mt-3">
+    //                     <p className="col-6"><span className="eventsstyletext">Event:<br /></span>{data.title}</p>
+    //                     <p className="col-3"><span className="eventsstyletext">Events on<br /></span>{data.date}</p>
+    //                     <p className="col-3"><span className="eventsstyletext">Time:<br /></span>{data.time}</p>
+    //                 </div>
+    //             ))}   
+    //         </div>
+    //     )
+    // }
+ 
 
     const changeVal = () => {
         return eventcontent.length > 0 && isshowScedule ?
@@ -54,8 +73,9 @@ function Eventmain() {
     }
 
     return (
-        <div className="container">
-            <div className="header">
+        <div>
+            <Header/>
+            {/* <div className="header">
                 <Navbar expand="lg" className="nav navbar-form " variant="dark" fixed="top">
                     <Container>
                         <Navbar.Brand href="/" >DataDNA</Navbar.Brand>
@@ -76,8 +96,9 @@ function Eventmain() {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-            </div>
-            <div className="row container mt-5 ">
+            </div> */}
+            <div className="container">
+            <div className="row container">
                 <div className="col-4 mt-5">
                     <Eventsidebar changeDate={changeDate} suggestionValue={suggestionValue} />
                 </div>
@@ -88,7 +109,11 @@ function Eventmain() {
                     {
                         changeVal()
                     }
+                    {/* {
+                        dateValues()
+                    } */}
                 </div>
+            </div>
             </div>
         </div>
     );
