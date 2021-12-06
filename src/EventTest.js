@@ -79,8 +79,8 @@ function EventTest() {
     const [display, setDisplay] = useState("default");
 
     return (
-        <>
-        <Header/>
+        <div>
+        <Header />
         {/* <div className="header">
                     <Navbar expand="lg" className="nav navbar-form " variant="dark" fixed="top">
                         <Container>
@@ -143,7 +143,7 @@ function EventTest() {
         </div>  
         </div>
        
-        </>
+        </div>
     )
 }
 

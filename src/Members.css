@@ -23,6 +23,7 @@
 
 }
 
+
 .avatar-boy{
     
     width: 150px;
@@ -34,4 +35,8 @@
 .member-button{
     margin-left: 60px;
     margin-top: 30px;
+}
+
+.card-title , .card-text {
+    color: black;
 }
