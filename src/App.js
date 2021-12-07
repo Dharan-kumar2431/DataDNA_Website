@@ -23,7 +23,9 @@ function App(){
 
       <Router>
   <Switch>
-  <Route exact path='/'><Home/></Route>
+  <Route exact path='/'>
+    <Home/>
+  </Route>
     
   <Route path='/JoinNow'> <Join/>  </Route> 
   <Route path='/Signin'> <Signin/> </Route>
