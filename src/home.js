@@ -16,6 +16,11 @@ import skype from './images/skype.png';
 import {Link} from 'react-router-dom';
 import React from 'react';
 import Iframe from 'react-iframe';
+import Introduction from './introduction';
+import About from './about';
+import Coaching from './Coaching';
+import Content from './content';
+import Header from './Header';
 
 
 
@@ -25,14 +30,14 @@ function Home(){
   
     return(
         <div >
-       <div className="header">
+       {/* <div className="header">
 <Navbar expand="lg" className="nav navbar-form " variant="dark" fixed="top">
   <Container>
     <Navbar.Brand href="#home" >DataDNA</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ms-auto">
-        <Nav.Link className="link" href="#about">About</Nav.Link>
+        <Nav.Link className="link" href="http://localhost:3000/#about">About</Nav.Link>
         <Nav.Link className="link" href="/courses">Courses</Nav.Link>
         <Nav.Link className="link" href="#blog">Blog</Nav.Link>
         <Nav.Link className="link" href="#coach">Coaching Methodology</Nav.Link>
@@ -46,9 +51,29 @@ function Home(){
     </Navbar.Collapse>
   </Container>
 </Navbar>
-</div>
+</div> */}
 
-<div id="home">
+<Header/>
+
+    <div id="intro">
+      <Introduction />
+    </div>
+    <div id="about">
+      <About/>
+    </div>
+    <div id="coaching">
+      <Coaching/>
+    </div>
+    <div id="contact">
+      <Content/>
+    </div>
+
+
+
+
+
+
+{/* <div id="home">
 <Container>
   <Row>
     <Col sm={12} md={12} lg={6}><h1 className="title">Empowering Growth With Real World.</h1> 
@@ -58,10 +83,10 @@ function Home(){
   </Row>
   
 </Container>
-</div>
+</div> */}
 
 
-
+{/* 
 <div id="about">
 
 <Carousel className="carousel" >
@@ -138,7 +163,7 @@ on the implementations.</p>
 </Carousel>
 
 </div>
-<hr></hr>
+<hr></hr> */}
 
 {/* <div id="courses">
 <div className="container">
@@ -237,7 +262,7 @@ on the implementations.</p>
 
 
 
-<div id="coach">
+{/* <div id="coach">
 <h2 className="coach">Coaching Methodology</h2>
 <Container>
   <Row>
@@ -285,14 +310,14 @@ on the implementations.</p>
   </Row>
 </Container>
 
-</div>
+</div> */}
 
 
 
 
 
 
-<div id="contact" >
+{/* <div id="contact" >
 
 <Container>
   <Row>
@@ -356,7 +381,7 @@ on the implementations.</p>
     </Col>
   </Row>
 </Container>
-</div>
+</div> */}
 
 
   </div>

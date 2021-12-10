@@ -148,16 +148,15 @@ function EventTest() {
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="ms-auto">
-                                    <Nav.Link className="link" href="#about">About</Nav.Link>
-                                    <Nav.Link className="link" href="/courses">Courses</Nav.Link>
-                                    <Nav.Link className="link" href="#blog">Blog</Nav.Link>
-                                    <Nav.Link className="link" href="#coach">Coaching Methodology</Nav.Link>
-                                    <Nav.Link className="link" href="/Members"><Link to="/Members" className="testimonial">Members</Link></Nav.Link>
-                                    <Nav.Link className="link" href="/eventmain">Events</Nav.Link>
-                                    <Nav.Link className="link" href="/Testimonial"><Link to="/Testimonial" className="testimonial">Testimonials</Link></Nav.Link>
-                                    <Nav.Link className="link" href="/forum">Forum</Nav.Link>
-                                    <Nav.Link className="link" href="#contact">Contact</Nav.Link>
-
+                                <Nav.Link className="link" href="/courses">Courses</Nav.Link>
+                                <Nav.Link className="link" href="http://localhost:3000/#about">About</Nav.Link>
+                                <Nav.Link className="link" href="/blog">Blog</Nav.Link>
+                                <Nav.Link className="link" href="http://localhost:3000/#coach">Coaching Methodology</Nav.Link>
+                                <Nav.Link className="link" href="/Members">Members</Nav.Link>
+                                <Nav.Link className="link" href="/eventmain">Events</Nav.Link>
+                                <Nav.Link className="link" href="/Testimonial">Testimonials</Nav.Link>
+                                <Nav.Link className="link" href="/forum">Forum</Nav.Link>
+                                <Nav.Link className="link" href="http://localhost:3000/#contact">Contact</Nav.Link>
 
                                 </Nav>
                             </Navbar.Collapse>

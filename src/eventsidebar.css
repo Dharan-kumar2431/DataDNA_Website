@@ -23,4 +23,5 @@ button{
 
 button:focus{
     background-color: blue;
+    color: white;
 }

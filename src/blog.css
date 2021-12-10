@@ -1,0 +1,274 @@
+.search-box
+{
+position: absolute;
+width: 448.86px;        
+height: 48px;
+left: 983px;
+top: 95px;
+border: 1px solid #6F6F6F;
+box-sizing: border-box;
+border-radius: 20px;
+}
+.Heading
+{
+position: absolute;
+width: 202px;
+height: 48px;
+left: 97px;
+top: 164px;
+font-family:Red Hat Display;
+
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: #0E5FB7;
+}
+.all-post
+{
+position: absolute;
+width: 274px;
+height: 65px;
+left: 65px;
+top: 154px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 88px;
+}
+.cloud-heading
+{
+position: absolute;
+width: 190px;
+height: 20px;
+left: 90px;
+top: 248px;
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+mix-blend-mode: darken
+}
+.cloud-computing
+{
+position: absolute;
+width: 233px;
+height: 44px;
+left: 77px;
+top: 235px;
+background: #FFFFFF;
+border: 1px solid #85C5E1;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+.machine-heading
+{
+position: absolute;
+width: 190px;
+height: 20px;
+left: 365px;
+top: 248px;
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+mix-blend-mode: darken
+}
+.Machine-learning
+{
+    position: absolute;
+    width: 233px;
+    height: 44px;
+    left: 355px;
+    top: 235px;
+    background: #FFFFFF;
+    border: 1px solid #85C5E1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.Neural-networks
+{
+position: absolute;
+width: 233px;
+height: 44px;
+left: 620px;
+top: 235px;
+background: #FFFFFF;
+border: 1px solid #85C5E1;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+.neural-heading
+{
+position: absolute;
+width: 235px;
+height: 22px;
+left: 631px;
+top: 249px;
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+}
+.IOT
+{
+    position: absolute;
+    width: 233px;
+    height: 44px;
+    left: 915px;
+    top: 235px;
+    background: #FFFFFF;
+    border: 1px solid #85C5E1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.IOT-heading
+{
+    position: absolute;
+    width: 190px;
+    height: 20px;
+    left: 929px;
+    top: 250px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+    mix-blend-mode:darken;
+}
+.others
+{
+position: absolute;
+width: 233px;
+height: 44px;
+left: 1169px;
+top: 232px;
+background: #FFFFFF;
+border: 1px solid #85C5E1;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+.others-heading
+{
+    position: absolute;
+    width: 190px;
+    height: 20px;
+    left: 1188px;
+    top: 246px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #090707;
+    mix-blend-mode: darken;
+}
+
+.slider 
+{
+width: 1449px !important;
+height: 596px;
+left: 0px !important;
+top: 20px !important;
+}
+
+.maindiv{
+    background-color: blue;
+    margin-top: 290px;
+
+}
+
+
+.image1
+{
+position: absolute;
+width: 609px !important;
+height: 557px !important;
+left: 100px;
+top: 30px;
+filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+}
+.image2
+{
+position: absolute;
+width: 609px !important;
+height: 519px !important;
+left: 110px;
+top: 20px;
+filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+}
+.image3
+{
+    position: absolute;
+    width: 609px !important;
+    height: 557px !important;
+    left: 120px;
+    top: 30px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+}
+.carousel-control-next{
+    position: absolute;
+    right: -70px !important;
+}
+.carousel-control-prev{
+    position: absolute;
+   left:-17px !important;
+}
+
+.text2{
+    color: white;
+    font-weight: bold !important;
+}
+.text1
+{
+    color:#FFFFFF;
+    font-weight: bold !important;
+}
+.text3
+{
+    color:#FFFFFF;
+    font-weight: bold !important;
+}
+
+.contentBox{
+    border:1px solid white;
+    background-color: #FFFFFF;
+    color: black;
+    height:500px;
+    margin-top: 45px;
+}
+.user{
+margin-top: 30px;
+display: inline;
+
+}
+
+.likeimg{
+    float: right  !important;
+    margin-right: 10px;
+}
+
+.contenttext{
+    font-family: Red Hat Display;
+    margin-bottom: 50px;
+} 
+.card-Heading
+{
+    font-family:Readex Pro;
+}
+.detailed
+{
+    font-family:Readex Pro;
+}

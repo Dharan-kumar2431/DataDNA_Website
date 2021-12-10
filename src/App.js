@@ -14,6 +14,7 @@ import Programdetails from './programdetails';
 import Eventmain from './eventmain';
 import EventTest from './EventTest';
 import Forum from './forum';
+import Blog from './blog';
 
 
 function App(){
@@ -53,6 +54,9 @@ function App(){
     </Router>
     <Router path="/forum">
       <Forum />
+    </Router>
+    <Router path="/blog">
+      <Blog />
     </Router>
 
   
