@@ -3,13 +3,16 @@ import boy from './images/boy.jpg';
 import girl from './images/girl.png';
 import { Button,Card,Row,Col, Container,Image} from 'react-bootstrap';
 import './Members.css';
-import Header from './Header';
+import Header from "./Header";
 
 
 function Members(){
     return(
 
+
 <div>
+  <Header/>
+
   <h1 className="members">Members</h1>
     <Container>
         <Row>

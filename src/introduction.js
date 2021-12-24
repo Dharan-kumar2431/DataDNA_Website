@@ -1,5 +1,5 @@
 import './home.css';
-import {Navbar,Nav,Container,Button,Col,Row,Image,Carousel,Card,Form,FloatingLabel} from 'react-bootstrap';
+import {Container,Button,Col,Row,Image} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import Heromotio from './images/Heromotio.gif';
 

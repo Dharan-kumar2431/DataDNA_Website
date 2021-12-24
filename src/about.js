@@ -1,7 +1,7 @@
 import './home.css';
 import crd1 from './images/crd1.png';
 import crd2 from './images/crd2.png';
-import {Navbar,Nav,Container,Button,Col,Row,Image,Carousel,Card,Form,FloatingLabel} from 'react-bootstrap';
+import {Container,Col,Row,Image,Carousel,Card} from 'react-bootstrap';
 
 
 

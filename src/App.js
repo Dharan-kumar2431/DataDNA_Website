@@ -11,7 +11,7 @@ import Certification from './certification';
 import Internship from './internship';
 import Mentership from './mentership';
 import Programdetails from './programdetails';
-import Eventmain from './eventmain';
+/*import Eventmain from './eventmain';*/
 import EventTest from './EventTest';
 import Forum from './forum';
 import Blog from './blog';

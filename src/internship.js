@@ -10,7 +10,7 @@ function Internship() {
         <div>
             <div className="row container">
                 <div className="col-1 container">
-                    <a><Link to="/courses"><img className="backbutton" src="./assects/backbutton1.png" /></Link></a>
+                    <Link to="/courses"><img className="backbutton" src="./assects/backbutton1.png" alt="" /></Link>
                 </div>
                 <div className="col-11">
                     <h2 className="chead">Internship & Experiences</h2>

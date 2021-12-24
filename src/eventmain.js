@@ -1,7 +1,5 @@
 import './eventmain.css';
 import Eventsidebar from './eventsidebar';
-import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Link } from "react-router-dom";
 import { useState } from 'react';
 import Header from './Header';
 

@@ -8,7 +8,7 @@ function Mentership() {
         <div>
             <div className="row container ">
                 <div className="col-1">
-                    <a><Link to="/courses"><img className="backbutton" src="./assects/backbutton1.png" /></Link></a>
+                <Link to="/courses"><img className="backbutton" src="./assects/backbutton1.png" alt="" /></Link>
                 </div>
                 <div className="col-11">
                     <h2 className="chead">Program Details</h2>
@@ -18,7 +18,7 @@ function Mentership() {
             <h5 className="csubtopics m-4">DURATION</h5>
             <div className="row">
                 <div className="col-1">
-                    <img className="cimg" src="./assects/mimg2.png" alt="no image" />
+                    <img className="cimg" src="./assects/mimg2.png" alt="" />
                 </div>
                 <div className="col-11">
                     <ul>
@@ -32,7 +32,7 @@ function Mentership() {
             <h5 className="csubtopics m-4">ELIGIBILITY</h5>
             <div className="row">
                 <div className="col-1">
-                    <img className="cimg" src="./assects/mimg3.png" alt="no image" />
+                    <img className="cimg" src="./assects/mimg3.png" alt="" />
                 </div>
                 <div className="col-11">
                     <ul>
@@ -46,7 +46,7 @@ function Mentership() {
             <h5 className="csubtopics m-4">TIME & COMMITMENT</h5>
             <div className="row">
                 <div className="col-1">
-                    <img className="cimg" src="./assects/mimg4.png" alt="no image" />
+                    <img className="cimg" src="./assects/mimg4.png" alt="" />
                 </div>
                 <div className="col-11">
                     <ul>

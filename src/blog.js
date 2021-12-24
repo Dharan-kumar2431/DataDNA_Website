@@ -14,8 +14,8 @@ import Header from "./Header";
 function Blog() {
   return (
     <div >
-      {/* header format */}
-      {/* <Header/> */}
+     
+      <Header/> 
 
       <div class="header">
         <input type="search" class="search-box" placeholder="Search" />

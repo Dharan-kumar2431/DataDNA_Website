@@ -1,21 +1,6 @@
-import {Navbar,Nav,Container,Button,Col,Row,Image,Carousel,Card,Form,FloatingLabel} from 'react-bootstrap';
+
 import './home.css';
-import Heromotio from './images/Heromotio.gif';
-import crd1 from './images/crd1.png';
-import crd2 from './images/crd2.png';
-import online from './images/online.png';
-import individual from './images/individual.png';
-import address from './images/address.png';
-import group from './images/group.png';
-import phone from './images/phone.png';
-import facebook2 from './images/facebook2.png';
-import instagram from './images/instagram.png';
-import twitter from './images/twitter.png';
-import gmail from './images/gmail.png';
-import skype from './images/skype.png';
-import {Link} from 'react-router-dom';
 import React from 'react';
-import Iframe from 'react-iframe';
 import Introduction from './introduction';
 import About from './about';
 import Coaching from './Coaching';

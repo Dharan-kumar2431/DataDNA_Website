@@ -4,6 +4,7 @@ import testimonial from './images/testimonial.png';
 import profile from './images/profile.jpg';
 import './testimonial.css';
 import {Image,Button} from 'react-bootstrap';
+import Header from "./Header";
 
 
 function Testimonial(){
@@ -34,6 +35,7 @@ function Testimonial(){
      return(
 
          <div>
+           <Header/>
 <h2 class="headingtestimonial">{heading}</h2>
      <Image className="Testimoniallogo" src={testimonial} alt="Testlogo"></Image>
      <input 

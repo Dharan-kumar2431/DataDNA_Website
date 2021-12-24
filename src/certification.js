@@ -8,7 +8,7 @@ function Certification() {
         <div className="container">
             <div className="row">
                 <div className="col-1">
-                <a><Link to="/courses"><img className="backbutton" src="./assects/backbutton1.png" /></Link></a>
+                <Link to="/courses"><img className="backbutton" src="./assects/backbutton1.png" alt="" /></Link>
                 </div>
                 <div className="col-11">
                 <h2 className="chead">Post Completion Advantages</h2>
@@ -17,7 +17,7 @@ function Certification() {
             <h5 className="csubtopics m-4">NETWORKING EVENTS</h5>
             <div className="row">
                 <div className="col-1">
-                    <img className="cimg" src="./assects/cfimg1.png" alt="no image" />
+                    <img className="cimg" src="./assects/cfimg1.png" alt="" />
                 </div>
                 <div className="col-11">
                     <ul>
@@ -30,7 +30,7 @@ function Certification() {
             <h5 className="csubtopics m-4">FREE DATA SCIENCE ARTICLES</h5>
             <div className="row">
                 <div className="col-1">
-                    <img className="cimg" src="./assects/cfimg2.png" alt="no image" />
+                    <img className="cimg" src="./assects/cfimg2.png" alt="" />
                 </div>
                 <div className="col-11">
                     <ul>
@@ -43,7 +43,7 @@ function Certification() {
             <h5 className="csubtopics m-4">JOBS UPDATE</h5>
             <div className="row">
                 <div className="col-1">
-                    <img className="cimg" src="./assects/cfimg3.png" alt="no image" />
+                    <img className="cimg" src="./assects/cfimg3.png" alt="" />
                 </div>
                 <div className="col-11">
                     <ul>
@@ -56,7 +56,7 @@ function Certification() {
             <h5 className="csubtopics m-4">COURSE ACCESS</h5>
             <div className="row">
                 <div className="col-1">
-                    <img className="cimg" src="./assects/cfimg4.png" alt="no image" />
+                    <img className="cimg" src="./assects/cfimg4.png" alt="" />
                 </div>
                 <div className="col-11">
                     <ul>
@@ -69,7 +69,7 @@ function Certification() {
             <h5 className="csubtopics m-4">EDUCATIONAL NEWSLETTERS</h5>
             <div className="row">
                 <div className="col-1">
-                    <img className="cimg" src="./assects/cfimg5.png" alt="no image" />
+                    <img className="cimg" src="./assects/cfimg5.png" alt="" />
                 </div>
                 <div className="col-11">
                     <ul>

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import Eventsidebar from "./eventsidebar";
+
 import "./eventmain.css";
 import "./eventsidebar.css";
 import Calendar from "react-calendar";
-import Header from "./Header";
+
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
 
 const eventcontent = [
   {
@@ -70,7 +70,7 @@ function EventTest() {
     return (
       <div>
         <div className="mx-5">
-          <img src="./assects/Calendar.png" alt="Image" className="imag" />
+          <img src="./assects/Calendar.png" alt="" className="imag" />
           <h4 className="schedulecontent mx-3">
             No scheduled events on this day
           </h4>
@@ -87,7 +87,7 @@ function EventTest() {
     let datevalue = date.getTime();
     console.log(datevalue);
     const particularDate = eventcontent.filter(
-      (value) => value.millisecond == datevalue
+      (value) => value.millisecond === datevalue
     );
     console.log(particularDate);
     setDataDisplay(particularDate);
@@ -116,7 +116,7 @@ function EventTest() {
                 ))}
             </div> :
             <div className="mx-5">
-                <img src="./assects/Calendar.png" alt="Image" className="imag" />
+                <img src="./assects/Calendar.png" alt="" className="imag" />
                 <h4 className="schedulecontent mx-3">No scheduled events on this day</h4>
             </div>
     }

@@ -84,7 +84,7 @@ text-decoration: none;
         .card{
           margin-top: 130px;
           margin-left: 150px;
-         width: 229px !important;
+         width: 229px ;
          height: 370px;
          border: 1px solid rgba(255, 255, 255, 0.4);
          box-sizing: border-box;
@@ -104,15 +104,17 @@ text-decoration: none;
        
         .cardtxt1{
           padding-top: 15px;
-          color: #0060CA;
+          color: #0060CA !important;
           padding-left: 20px;
+          font-weight: bold;
         }
        
         .cardtxt2{
+          font-weight: bold;
          padding-top: 35px;
-         color: #0060CA;
-         padding-left: 25px;
-         width: 310px !important;
+         color: #0060CA !important;
+         padding-left: 45px;
+         width: 330px ;
          line-height: 30px;
         }
        
@@ -176,7 +178,7 @@ text-decoration: none;
         text-align:justify;
         width: 330px !important;
         height: 432px;
-        color: white;
+        color: white  ; 
        background: #0060CA !important;
         background-blend-mode: soft-light, normal;
         border: 2px solid rgba(255, 255, 255, 0.16);
@@ -186,7 +188,9 @@ text-decoration: none;
        }
 
       
-       
+       .coaching{
+         color: white !important;
+       }
 
        .online {
          margin-top: 20px;
@@ -206,6 +210,12 @@ text-decoration: none;
 
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
        }
+
+       .coaching{
+         color: white;
+       }
+
+
 
 
        /**************courses****************/
@@ -314,11 +324,17 @@ border-radius: 22px;
        }
 
        .addressicon{
-         padding-left: 85px;
+         margin-left: 0px;
+         margin-top: 20px;
+         position: absolute;
+        
        }
 
-       .heading{
-         padding-left: 70px;
+       .addressheading{
+         padding-left: 85px;
+         padding-top: 65px;
+         font-size: 25px;
+       
        }
 
        .add{
@@ -327,47 +343,64 @@ border-radius: 22px;
        }
 
        .phone{
-         padding-left: 70px;
+         padding-left: 85px;
+       }
+        
+       .phoneheading{
+        padding-left: 85px;
+        padding-top: 65px;
+        font-size: 25px;
        }
 
        .phoneicon{
-         padding-left: 120px;
-         padding-bottom: 5px;
-         width: 55% !important;
+         margin-top: 58px;
+         position: absolute;
        }
 
       .facebook2{
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 30px;
+       width: 55px !important;
+       height: 55px;
+       margin-right: 30px;
+      
       }
 
       .instagram{
-        padding-top: 20px;
-        padding-left: 15px;
-        padding-right: 30px;
+        width: 55px !important;
+        height: 55px;
+        margin-right: 30px;
       }
 
       .twitter{
-        padding-top: 20px;
-        padding-left: 15px;
-        padding-right: 30px;
+        width: 55px !important;
+       height: 55px;
       }
 
       .heading2{
-        padding-top: 50px;
-        padding-left: 70px;
+        padding-top: 65px;
+        padding-left: 40px;
+        font-size: 25px;
       }
 
       .gmail{
     
     margin-left: 50px;
-    margin-top: 1px;
+    margin-top: 20px;
       }
 
       .gmailicon{
+       position: absolute;
+       width: 35px !important;
+       height: 30px;
+       margin-top: 18px;
+  
+      }
+
+      .skypeicon{
+
         position: absolute;
-       width: 30px !important;
+        width: 35px !important;
+        height: 30px;
+        margin-top: 0px;
       }
 
       .address2{

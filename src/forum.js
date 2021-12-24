@@ -4,10 +4,12 @@ import girl from './images/girl.png';
 import boy from './images/boy.jpg';
 import comment from './images/comment.png';
 import heart from './images/heart.png';
+import Header from "./Header";
 
 function Forum() {
     return(
 <div>
+  <Header/>
     <h2 className="forum-head">Forum</h2>
     <h4 className="forum-sub">Welcome! Have a look around and join the discussions.</h4>
 

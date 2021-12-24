@@ -9,7 +9,7 @@ function Programdetails() {
         <div>
             <div className="row container">
                 <div className="col-1">
-                    <a><Link to="/courses"><img className="backbutton" src="./assects/backbutton1.png" /></Link></a>
+                <Link to="/courses"><img className="backbutton" src="./assects/backbutton1.png " alt="" /></Link>
                 </div>
                 <div className="col-11">
                     <h2 className="chead">Program Design & Stratergy</h2>

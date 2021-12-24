@@ -2,7 +2,7 @@ import { Component } from "react";
 import { Row, Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import './Courses.css';
-import {Navbar,Nav,Container} from 'react-bootstrap';
+
 import Header from "./Header";
 
 
@@ -19,7 +19,7 @@ class Courses extends Component {
     render() {
         return (
             <div>
-                <Header/>
+                <Header className="headerbar"/>
                 {/* <div className="header">
                     <Navbar expand="lg" className="nav navbar-form " variant="dark" fixed="top">
                         <Container>
@@ -54,7 +54,7 @@ class Courses extends Component {
                                 <Card.Body>
                                     <Card.Title className="cardtitle">{res.title}</Card.Title>
                                     <Card.Text className="cardlinktext">
-                                        <a><Link to={res.href} className="cardlink">View Information</Link></a>
+                                        <Link to={res.href} className="cardlink">View Information</Link>
                                         {/* <Card.Link href={res.href} className="cardlink">View Information</Card.Link> */}
                                     </Card.Text>
                                 </Card.Body>

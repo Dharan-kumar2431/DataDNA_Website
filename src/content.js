@@ -1,13 +1,8 @@
 
 import './home.css';
-import {Navbar,Nav,Container,Button,Col,Row,Image,Carousel,Card,Form,FloatingLabel} from 'react-bootstrap';
+import {Container,Button,Col,Row,Image,Form,FloatingLabel} from 'react-bootstrap';
 import Iframe from 'react-iframe';
-import crd1 from './images/crd1.png';
-import crd2 from './images/crd2.png';
-import online from './images/online.png';
-import individual from './images/individual.png';
 import address from './images/address.png';
-import group from './images/group.png';
 import phone from './images/phone.png';
 import facebook2 from './images/facebook2.png';
 import instagram from './images/instagram.png';
@@ -61,18 +56,18 @@ function Content() {
   <Row >
     <Col className="address">
       <Image src={address} className="addressicon"></Image>
-    <h5 className="heading">Address</h5>
+    <h5 className="addressheading">Address</h5>
     <p className="add">Apartment, ETA Star Rosedale, RRA 203, A Block, Chennai, Tamil Nadu 603103</p>
     
     </Col>
     <Col className="address" >
     <Image src={phone} className="phoneicon"></Image>
-    <h5 className="heading">Phone Number</h5>
+    <h5 className="phoneheading">Phone Number</h5>
     <p className="phone">+91 9840292498</p>
     </Col>
     <Col className="address2">
   <Image src={gmail} className="gmailicon"></Image><p className="gmail"> vijay@datadna.in </p>
-  <Image src={skype} className="gmailicon"></Image> <p className="gmail"> vijayakeerthi09</p>
+  <Image src={skype} className="skypeicon"></Image> <p className="gmail"> vijayakeerthi09</p>
     </Col>
     <Col className="address">
     <h5 className="heading2">Social Media</h5>

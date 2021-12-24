@@ -1,7 +1,7 @@
 import './signin.css';
 import { Link } from "react-router-dom";
 import {Navbar,Nav,Container} from 'react-bootstrap';
-import { Row, Card, Col } from "react-bootstrap";
+
 
 
 function Signin() {
@@ -31,7 +31,7 @@ function Signin() {
                 </div>
             <div className="row mt-5">
                 <div className="col-6">
-                    <img className="imagestyle" src="./assects/signin.png" />
+                    <img className="imagestyle" src="./assects/signin.png" alt="" />
                 </div>
                 <div className="col-6">
                     <h1 className="heading">Sign in</h1>
@@ -43,11 +43,11 @@ function Signin() {
                     </form>
                     <hr className="line mt-4" />
                     <div className="mt-3 logos">
-                        <a><Link to="#"><img className="facebooklogo" src="./assects/facebooklogo.png" /></Link></a>
-                        <a><Link to="#"><img className="googlelogo" src="./assects/google.png" /></Link></a>
-                        <a><Link to="#"><img className="linkedin" src="./assects/linkedin1.png" /></Link></a>
+                        <Link to="#"><img className="facebooklogo" src="./assects/facebooklogo.png" alt="" /></Link>
+                        <Link to="#"><img className="googlelogo" src="./assects/google.png" alt="" /></Link>
+                        <Link to="#"><img className="linkedin" src="./assects/linkedin1.png" alt="" /></Link>
                     </div>
-                    <p className="signupbtn mt-4">Don’t have an account?<a className="signuplink"><Link to="#"> Sign Up</Link></a></p>
+                    <p className="signupbtn mt-4">Don’t have an account?<Link to="#" className="signuplink"> Sign Up</Link></p>
                 </div>
             </div>
         </div>
